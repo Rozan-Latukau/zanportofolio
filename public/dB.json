@@ -81,12 +81,12 @@
   "project": {
     "card": [
       {
-        "cardimg": "bacaduluaja.png",
+        "cardimg": "Cekajadulu.png",
         "titleJob": "CekAjaDulu",
         "url": "https://www.figma.com/proto/QwCBsWE5qFxGAguaa9flAu/Wisata-dan-Budaya?type=design&node-id=296-893&scaling=scale-down-width&page-id=5%3A3&starting-point-node-id=296%3A893"
       },
       {
-        "cardimg":"Cekajadulu.png",
+        "cardimg":"bacaduluaja.png",
         "titleJob": "BacaDuluAja",
         "url": "https://bacadulu-aja.vercel.app"
       },
