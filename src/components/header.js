@@ -5,6 +5,7 @@ import { Container, Navbar, Nav, Col, Button, NavLink } from "react-bootstrap";
 import Typewriter from "typewriter-effect";
 import { FaInstagram, FaSquareGithub, FaLinkedinIn } from "react-icons/fa6";
 import Zmage from "react-zmage";
+import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 
 const Header = (props) => {
   if (!props.data) return null;
@@ -51,29 +52,35 @@ const Header = (props) => {
 
   const menuNav = [
     {
-      namanav: "Home"
+      namanav: "Home",
+      path:"home"
     },
     {
-      namanav: "About"
+      namanav: "About",
+      path:"about"
     },
     {
-      namanav: "Project"
+      namanav: "Project",
+      path:"project"
     },
     {
-      namanav: "Contact"
+      namanav: "Contact",
+      path:"contact"
     }
   ];
 
   const navBar = menuNav.map(function (item) {
     return (
       <NavLink key={item.namanav} className="text-white text-start">
+        <ScrollLink to={item.path} spy={true} smooth={true} offset={-70} duration={500}>
         {item.namanav}
+      </ScrollLink>
       </NavLink>
     );
   });
 
   return (
-    <header id="none">
+    <header id="home">
       <Navbar expand="lg" className="bg-navbar fixed-top">
         <Container>
           <Navbar.Brand className="text-white">ZanPortofolio</Navbar.Brand>

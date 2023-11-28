@@ -62,7 +62,7 @@ const About = (props) => {
   });
 
   return (
-    <section>
+    <section id="about">
       <Container>
         <Row>
           <Col md={6} >

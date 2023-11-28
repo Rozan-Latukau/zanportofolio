@@ -23,7 +23,7 @@ const Project = (props) => {
         )
     })
     return (
-        <section>
+        <section id="project">
             <Container>
                 <Row className="text-center justify-content-center">
                     <div className="project-hr">
