@@ -10,11 +10,11 @@ import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 const Header = (props) => {
   if (!props.data) return null;
 
-
+  
   const { cv, contact, name, img, social } = props.data;
   const profileimg = "assets/" + img;
 
-  const sosmed = social.map((media) => {
+  const sosmed = social.map( (media) => {
     if (media.name === "instagram") {
       return (
         <li key={media.name}>
@@ -53,19 +53,19 @@ const Header = (props) => {
   const menuNav = [
     {
       namanav: "Home",
-      path: "home"
+      path:"home"
     },
     {
       namanav: "About",
-      path: "about"
+      path:"about"
     },
     {
       namanav: "Project",
-      path: "project"
+      path:"project"
     },
     {
       namanav: "Contact",
-      path: "contact"
+      path:"contact"
     }
   ];
 
@@ -73,8 +73,8 @@ const Header = (props) => {
     return (
       <NavLink key={item.namanav} className="text-white text-start">
         <ScrollLink to={item.path} spy={true} smooth={true} offset={-70} duration={500}>
-          {item.namanav}
-        </ScrollLink>
+        {item.namanav}
+      </ScrollLink>
       </NavLink>
     );
   });
@@ -82,7 +82,7 @@ const Header = (props) => {
   return (
     <header>
       <Navbar expand="lg" className="bg-navbar" fixed="top">
-        <Container>
+      <Container>
           <Navbar.Brand className="text-white">ZanPortofolio</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" className="bg-white " />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -90,7 +90,7 @@ const Header = (props) => {
               {navBar}
             </Nav>
           </Navbar.Collapse>
-        </Container>
+          </Container>
       </Navbar>
       <section id="home">
         <Container>
