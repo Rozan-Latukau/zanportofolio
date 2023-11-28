@@ -1,0 +1,247 @@
+@import url("https://fonts.cdnfonts.com/css/optima");
+* {
+  text-decoration: none;
+  font-family: "Optima", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+section {
+  padding: 0 0 50px 0;
+}
+.text-justify {
+  text-align: justify;
+}
+.bg :hover {
+  background-color: blue;
+}
+.bg-navbar {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.size-img {
+  padding: 0 50px 0 50px;
+  border-radius: 15px;
+  width: auto;
+  height: 25em;
+  margin: 100px 0 0 0;
+}
+.social-icon {
+  padding: 20px;
+  background-color: white;
+}
+.list-style {
+  list-style-type: none;
+}
+.bar-expand {
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  margin: 0;
+  padding-right: 24px;
+  background: #313131;
+  display: inline-block;
+  height: 25px;
+  line-height: 42px;
+  border-radius: 0px;
+}
+/*----------------------------------------------*/
+/*	Skill Bars
+/*----------------------------------------------*/
+
+.bars {
+  width: auto;
+  padding: 0;
+}
+.bars .skills {
+  margin-top: 36px;
+  list-style: none;
+}
+.bars li {
+  position: relative;
+  background: #333;
+  height: 25px;
+  border-radius: 0px;
+}
+.bars li p {
+  font: 15px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: normal;
+  position: relative;
+  top: -36px;
+}
+.skills {
+  padding-left: 0px;
+}
+.row .project-hr {
+  width: 130px;
+  max-width: 100%;
+}
+.hr-b {
+  margin: 0 0 120px 0;
+}
+.row .hrform {
+  width: 195px;
+  max-width: 100%;
+}
+
+/* Card */
+.cardProject {
+  background-color: #1d212a;
+}
+
+/* ------------------------------------------------------------------ */
+/* h. Contact Section
+/* ------------------------------------------------------------------ */
+
+#contact {
+  color: #636363;
+}
+#contact .section-head {
+  margin-bottom: 42px;
+}
+
+#contact a,
+#contact a:visited {
+  color: #0762f9;
+}
+#contact a:hover,
+#contact a:focus {
+  color: #fff;
+}
+
+#contact h1 {
+  font: 18px/24px "opensans-bold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #ebeeee;
+  margin-bottom: 6px;
+}
+#contact h1 span {
+  display: none;
+}
+#contact h1:before {
+  font-family: "FontAwesome";
+  content: "\f0e0";
+  padding-right: 10px;
+  font-size: 72px;
+  line-height: 72px;
+  text-align: left;
+  float: left;
+  color: #ebeeee;
+}
+
+#contact h4 {
+  font: 16px/24px "opensans-bold", sans-serif;
+  color: #ebeeee;
+  margin-bottom: 6px;
+}
+#contact p.lead {
+  font: 18px/36px "opensans-light", sans-serif;
+  padding-right: 3%;
+}
+#contact .header-col {
+  padding-top: 6px;
+}
+
+/* contact form */
+#contact form {
+  padding: 20px;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.175);
+}
+#contact label {
+  font: 15px/24px "opensans-bold", sans-serif;
+  margin: 0 0 12px 0;
+  color: #ebeeee;
+  display: block;
+  float: left;
+  text-align: start;
+  width: 26%;
+}
+#contact input,
+#contact textarea,
+#contact select {
+  padding: 5px;
+  color: #eee;
+  background: #2e3438;
+  margin-bottom: 20px;
+  border: 0;
+  outline: none;
+  font-size: 15px;
+  line-height: 24px;
+  width: 100%;
+}
+#contact input:focus,
+#contact textarea:focus,
+#contact select:focus {
+  color: #fff;
+  background-color: #0762f9;
+}
+#contact button.submit {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #2e3438;
+  background: #ffff;
+  border: none;
+  cursor: pointer;
+  height: auto;
+  display: inline-block;
+  border-radius: 0px;
+}
+#contact button.submit:hover {
+  color: #fff;
+  background: #2e3438;
+}
+#contact span.required {
+  color: #0762f9;
+  font-size: 13px;
+}
+#message-warning,
+#message-success {
+  display: none;
+  background: #0f0f0f;
+  padding: 24px 24px;
+  margin-bottom: 36px;
+  width: 65%;
+  margin-left: 26%;
+}
+#message-warning {
+  color: #d72828;
+}
+#message-success {
+  color: #0762f9;
+}
+
+#message-warning i,
+#message-success i {
+  margin-right: 10px;
+}
+#image-loader {
+  display: none;
+  position: relative;
+  left: 18px;
+  top: 17px;
+}
+.display-form {
+  display: flex;
+  flex-direction: column;
+}
+.text-start .text-white p {
+  margin-bottom: 5px;
+  color: #a7aaac;
+}
+.text-start .text-white h3 {
+  font-size: 25px;
+  margin-bottom: 12px;
+}
+.icon-all {
+  font-size: 100px;
+}
+@keyframes expand {
+  from {
+    width: 0;
+  }
+}

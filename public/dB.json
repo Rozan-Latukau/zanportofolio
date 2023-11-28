@@ -1,0 +1,105 @@
+{
+  "main": {
+    "name": "Halo! Saya Rozan Naufal Latukau",
+    "description": "Halo, Perkenalkan Nama Saya Rozan Naufal Latukau, Saat ini saya mahasiswa jurusan Sistem Informasi di Universitas Teknologi Digital Indonesia. Saya memiliki pengetahuan yang kuat tentang konsep dan praktik TI, serta keterampilan teknis, seperti Pengembang Web, Desain UI, Mobile Front-end. Saya Memiliki keinginan kuat untuk terus mengembangkan solusi teknologi inovatif dan memecahkan masalah melalui penggunaan teknologi informasi. Saat ini saya sedang mencari pengalaman di dunia teknologi untuk meningkatkan kemampuan saya.",
+    "contact": "",
+    "cv": "",
+    "img":"Profile.png",
+    "social": [
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/naufal_latukau/"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/Rozan-Latukau"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/rozan-naufal-latukau-992b6a221/"
+      }
+    ],
+    "email": "iyanlatu@gmail.com",
+    "phone": "+62-813-4344-5976",
+    "address": {
+      "street": "Jl Janti",
+      "city": "Yogyakarta",
+      "state": "Jln. janti Karangjambe, Banguntapan, Bantul",
+      "zip": "55197"
+    },
+    "education": [
+      {
+        "kampus": "Universitas Teknologi Digital Indonesia",
+        "jurusan": "Information System",
+        "tahun": "2021-2024",
+        "info": "Saat ini saya adalah mahasiswa jurusan sistem informasi di Universitas Teknologi DIgital Indonesia. Tujuan saya adalah mempersiapkan diri untuk karier di industri teknologi informasi setelah lulus. kemudian saya juga aktif dalam sebuah organisasi mahasiswa."
+      },
+      {
+        "kampus": "PT Hacktivate Teknologi Indonesia",
+        "jurusan": "Web Development",
+        "tahun": "Agu 2023 - Des 2023",
+        "info": "Saya mengikuti program MSIB di PT Hacktivate Teknologi Indonesia dengan mengambil bidang Web Development. Di Web Development saya mempelajari HTML, CSS, Framework CSS, JavaScript, JSON dan Express js."
+      }
+    ],
+    "skills": [
+      {
+        "skil": "Javascript",
+        "level": "80%"
+      },
+      {
+        "skil": "Flutter",
+        "level": "80%"
+      },
+      {
+        "skil": "ReactJs",
+        "level":"60%"
+      },
+      {
+        "skil": "Ui Design",
+        "level": "90%"
+      },
+      {
+        "skil": "CorelDraw",
+        "level": "90%"
+      }
+    ],
+    "experience": [
+      {
+        "job": "Asisten Dosen",
+        "nama": "Universitas Teknologi Digital Indonesia",
+        "tahun": "Feb 2023 - Jul 2023",
+        "deskripsi": "Menjelaskan setiap modul kepada mahasiswa, membuat kuis dan periksa laporan untuk setiap pertemuan, Membantu mahasiswa jika ada kesulitan dan membuat nilai mahasiswa"
+      },
+      {
+        "job": "Ketua Bidang Penelitian dan Pengembangan",
+        "nama": "Himpunan Mahasiswa Sistem Informasi",
+        "tahun": "Agu 2022 - Agu 2023",
+        "deskripsi": "Membuat program kerja seminar kampus, belajar bersama, desain media sosial organisasi dan kegiatan sosial."
+      }
+    ]
+  },   
+  "project": {
+    "card": [
+      {
+        "cardimg": "bacaduluaja.png",
+        "titleJob": "CekAjaDulu",
+        "url": "https://www.figma.com/proto/QwCBsWE5qFxGAguaa9flAu/Wisata-dan-Budaya?type=design&node-id=296-893&scaling=scale-down-width&page-id=5%3A3&starting-point-node-id=296%3A893"
+      },
+      {
+        "cardimg":"Cekajadulu.png",
+        "titleJob": "BacaDuluAja",
+        "url": "https://bacadulu-aja.vercel.app"
+      },
+      {
+        "cardimg":"whack a chu.png",
+        "titleJob": "Whack a Chu",
+        "url": "https://wdp-12.github.io/Finalproject1_Kelompok-4"
+      },
+      {
+        "cardimg":"bengkelsehat.png",
+        "titleJob": "BengkelSehat",
+        "url": "https://github.com/Rozan-Latukau/bengkelsehat-flutter.git"
+      }
+    ]
+  }
+}
