@@ -81,7 +81,7 @@ const Header = (props) => {
 
   return (
     <header>
-      <Navbar expand="lg" className="bg-navbar" fixed="top">
+      <Navbar expand="md" className="bg-navbar" fixed="top">
       <Container>
           <Navbar.Brand className="text-white">ZanPortofolio</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" className="bg-white " />

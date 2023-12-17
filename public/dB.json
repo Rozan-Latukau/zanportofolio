@@ -3,7 +3,7 @@
     "name": "Halo! Saya Rozan Naufal Latukau",
     "description": "Halo, Perkenalkan Nama Saya Rozan Naufal Latukau, Saat ini saya mahasiswa jurusan Sistem Informasi di Universitas Teknologi Digital Indonesia. Saya memiliki pengetahuan yang kuat tentang konsep dan praktik TI, serta keterampilan teknis, seperti Pengembang Web, Desain UI, Mobile Front-end. Saya Memiliki keinginan kuat untuk terus mengembangkan solusi teknologi inovatif dan memecahkan masalah melalui penggunaan teknologi informasi. Saat ini saya sedang mencari pengalaman di dunia teknologi untuk meningkatkan kemampuan saya.",
     "contact": "https://api.whatsapp.com/send/?phone=6281343445976&text=Halo%2C+Apakah+ada+yang+bisa+kami+bantu+?",
-    "cv": "",
+    "cv": "https://drive.google.com/file/d/1ABxy-CkWYwdmNcRn5882jqVWzGgDCoPJ/view?usp=sharing",
     "img":"Profile.png",
     "social": [
       {
@@ -30,12 +30,12 @@
     "education": [
       {
         "kampus": "Universitas Teknologi Digital Indonesia",
-        "jurusan": "Information System",
+        "jurusan": "Sistem Informasi",
         "tahun": "2021-2024",
         "info": "Saat ini saya adalah mahasiswa jurusan sistem informasi di Universitas Teknologi DIgital Indonesia. Tujuan saya adalah mempersiapkan diri untuk karier di industri teknologi informasi setelah lulus. kemudian saya juga aktif dalam sebuah organisasi mahasiswa."
       },
       {
-        "kampus": "PT Hacktivate Teknologi Indonesia",
+        "kampus": "Hacktiv8 Indonesia",
         "jurusan": "Web Development",
         "tahun": "Agu 2023 - Des 2023",
         "info": "Saya mengikuti program MSIB di PT Hacktivate Teknologi Indonesia dengan mengambil bidang Web Development. Di Web Development saya mempelajari HTML, CSS, Framework CSS, JavaScript, JSON dan Express js."
@@ -53,6 +53,10 @@
       {
         "skil": "ReactJs",
         "level":"60%"
+      },
+      {
+        "skil":"MySql",
+        "level":"70%"
       },
       {
         "skil": "Ui Design",

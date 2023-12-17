@@ -6,14 +6,11 @@
 body {
   margin: 0;
   padding: 0;
+  width: unset;
 }
 section {
   padding: 0 0 50px 0;
 }
-.fixed-top {
-  width: 100vw; /* Hindari menggunakan vw jika tidak diperlukan */
-}
-
 .text-justify {
   text-align: justify;
 }
