@@ -103,6 +103,11 @@
         "cardimg":"bengkelsehat.png",
         "titleJob": "BengkelSehat",
         "url": "https://github.com/Rozan-Latukau/bengkelsehat-flutter.git"
+      },
+      {
+        "cardimg":"Portofolio.png",
+        "titleJob": "Portofolio",
+        "url": "https://zanportofolio.vercel.app"
       }
     ]
   }
